@@ -1,1 +1,1 @@
-my_secure_key_123
+1
