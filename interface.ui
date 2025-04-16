@@ -6,14 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>489</height>
+    <width>999</width>
+    <height>576</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item alignment="Qt::AlignTop">
      <widget class="QFrame" name="header">
@@ -28,6 +34,9 @@
         <width>16777215</width>
         <height>50</height>
        </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -46,13 +55,16 @@
         <number>0</number>
        </property>
        <property name="rightMargin">
-        <number>0</number>
+        <number>12</number>
        </property>
        <property name="bottomMargin">
         <number>0</number>
        </property>
-       <item alignment="Qt::AlignLeft">
+       <item>
         <widget class="QFrame" name="frame">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -76,16 +88,19 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QLabel" name="label">
             <property name="text">
-             <string>menu</string>
+             <string>PRIME OPTIMIZER</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
             </property>
            </widget>
           </item>
          </layout>
         </widget>
        </item>
-       <item>
+       <item alignment="Qt::AlignRight">
         <widget class="QFrame" name="frame_3">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -110,18 +125,31 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QLabel" name="label">
-            <property name="font">
-             <font>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
+           <widget class="QPushButton" name="pushButton">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ff4444, stop:1 #ff4433);
+    border-radius: 8px;  /* Half of height for perfect round */
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    font-size: 10px;
+    font-weight: bold;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ff4444, stop:1 #ff4333);
+}
+
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ff4444, stop:1 #ff3334);
+    padding-top: 3px;  /* Micro push effect */
+}</string>
             </property>
             <property name="text">
-             <string>my app</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
+             <string>x</string>
             </property>
            </widget>
           </item>
@@ -133,6 +161,9 @@
     </item>
     <item>
      <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
       </property>
@@ -144,7 +175,7 @@
         <number>0</number>
        </property>
        <property name="leftMargin">
-        <number>0</number>
+        <number>12</number>
        </property>
        <property name="topMargin">
         <number>0</number>
@@ -157,6 +188,9 @@
        </property>
        <item alignment="Qt::AlignLeft">
         <widget class="QFrame" name="sidemenu">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -201,7 +235,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_3">
              <property name="spacing">
-              <number>0</number>
+              <number>9</number>
              </property>
              <property name="leftMargin">
               <number>0</number>
@@ -217,6 +251,33 @@
              </property>
              <item>
               <widget class="QPushButton" name="pushButton_2">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 1</string>
                </property>
@@ -224,6 +285,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_3">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 2</string>
                </property>
@@ -231,6 +319,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_4">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 3</string>
                </property>
@@ -238,6 +353,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_5">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 4</string>
                </property>
@@ -245,6 +387,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_6">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 5</string>
                </property>
@@ -252,6 +421,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_7">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 6</string>
                </property>
@@ -259,6 +455,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_8">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 7</string>
                </property>
@@ -266,6 +489,33 @@
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_9">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #71e0fe, stop:1 #3c82fe
+    );
+    border: 1px solid #2a6fdb;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #8ae6ff, stop:1 #4d8cff
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #5ac8e8, stop:1 #2a6fdb
+    );
+}</string>
+               </property>
                <property name="text">
                 <string>item 8</string>
                </property>
@@ -284,6 +534,9 @@
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
