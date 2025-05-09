@@ -593,9 +593,9 @@
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>0</number>
+             <number>13</number>
             </property>
-            <widget class="QWidget" name="page">
+            <widget class="QWidget" name="page1">
              <widget class="QLabel" name="label_2">
               <property name="geometry">
                <rect>
@@ -610,7 +610,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_5">
+            <widget class="QWidget" name="page2">
              <widget class="QLabel" name="label_3">
               <property name="geometry">
                <rect>
@@ -625,7 +625,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_6">
+            <widget class="QWidget" name="page3">
              <widget class="QLabel" name="label_4">
               <property name="geometry">
                <rect>
@@ -640,7 +640,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_7">
+            <widget class="QWidget" name="page4">
              <widget class="QLabel" name="label_5">
               <property name="geometry">
                <rect>
@@ -655,7 +655,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_8">
+            <widget class="QWidget" name="page5">
              <widget class="QLabel" name="label_6">
               <property name="geometry">
                <rect>
@@ -670,7 +670,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_9">
+            <widget class="QWidget" name="page6">
              <widget class="QLabel" name="label_7">
               <property name="geometry">
                <rect>
@@ -685,7 +685,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_10">
+            <widget class="QWidget" name="page7">
              <widget class="QLabel" name="label_8">
               <property name="geometry">
                <rect>
@@ -700,7 +700,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_2">
+            <widget class="QWidget" name="page8">
              <widget class="QLabel" name="label_9">
               <property name="geometry">
                <rect>
@@ -715,8 +715,8 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_17"/>
-            <widget class="QWidget" name="page_16">
+            <widget class="QWidget" name="page9"/>
+            <widget class="QWidget" name="page10">
              <widget class="QLabel" name="label_11">
               <property name="geometry">
                <rect>
@@ -731,7 +731,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_15">
+            <widget class="QWidget" name="page11">
              <widget class="QLabel" name="label_12">
               <property name="geometry">
                <rect>
@@ -746,7 +746,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_14">
+            <widget class="QWidget" name="page12">
              <widget class="QLabel" name="label_13">
               <property name="geometry">
                <rect>
@@ -761,7 +761,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_13">
+            <widget class="QWidget" name="page13">
              <widget class="QLabel" name="label_14">
               <property name="geometry">
                <rect>
@@ -776,7 +776,7 @@
               </property>
              </widget>
             </widget>
-            <widget class="QWidget" name="page_18">
+            <widget class="QWidget" name="page14">
              <widget class="QLabel" name="label_15">
               <property name="geometry">
                <rect>
