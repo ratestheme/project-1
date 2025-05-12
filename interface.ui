@@ -263,7 +263,7 @@
             </string>
                </property>
                <property name="text">
-                <string>item 1</string>
+                <string>Gen Optimizations</string>
                </property>
               </widget>
              </item>
@@ -286,7 +286,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 2</string>
+                <string>More Optimizations</string>
                </property>
               </widget>
              </item>
@@ -309,7 +309,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 3</string>
+                <string>UI/Performance</string>
                </property>
               </widget>
              </item>
@@ -332,7 +332,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 4</string>
+                <string>System Services</string>
                </property>
               </widget>
              </item>
@@ -355,7 +355,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 5</string>
+                <string>Net/Connectivity</string>
                </property>
               </widget>
              </item>
@@ -378,7 +378,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 6</string>
+                <string>Privacy/Features</string>
                </property>
               </widget>
              </item>
@@ -401,7 +401,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 7</string>
+                <string>System Service</string>
                </property>
               </widget>
              </item>
@@ -424,7 +424,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item 8</string>
+                <string>App Service</string>
                </property>
               </widget>
              </item>
@@ -447,7 +447,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item9</string>
+                <string>Net/Wifi/Bios</string>
                </property>
               </widget>
              </item>
@@ -470,7 +470,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item10</string>
+                <string>BIOS</string>
                </property>
               </widget>
              </item>
@@ -493,7 +493,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item11</string>
+                <string>THEME</string>
                </property>
               </widget>
              </item>
@@ -516,7 +516,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item12</string>
+                <string>TASK MGR</string>
                </property>
               </widget>
              </item>
@@ -539,7 +539,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item13</string>
+                <string>OPTIMIZER</string>
                </property>
               </widget>
              </item>
@@ -562,7 +562,7 @@
           </string>
                </property>
                <property name="text">
-                <string>item14</string>
+                <string>GAME BOOSTER</string>
                </property>
               </widget>
              </item>
@@ -593,204 +593,22 @@
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>13</number>
+             <number>12</number>
             </property>
-            <widget class="QWidget" name="page1">
-             <widget class="QLabel" name="label_2">
-              <property name="geometry">
-               <rect>
-                <x>260</x>
-                <y>10</y>
-                <width>101</width>
-                <height>16</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 1</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page2">
-             <widget class="QLabel" name="label_3">
-              <property name="geometry">
-               <rect>
-                <x>270</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 2</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page3">
-             <widget class="QLabel" name="label_4">
-              <property name="geometry">
-               <rect>
-                <x>280</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 3</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page4">
-             <widget class="QLabel" name="label_5">
-              <property name="geometry">
-               <rect>
-                <x>300</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 4</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page5">
-             <widget class="QLabel" name="label_6">
-              <property name="geometry">
-               <rect>
-                <x>290</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 5</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page6">
-             <widget class="QLabel" name="label_7">
-              <property name="geometry">
-               <rect>
-                <x>300</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 6</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page7">
-             <widget class="QLabel" name="label_8">
-              <property name="geometry">
-               <rect>
-                <x>280</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 7</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page8">
-             <widget class="QLabel" name="label_9">
-              <property name="geometry">
-               <rect>
-                <x>290</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item 8</string>
-              </property>
-             </widget>
-            </widget>
+            <widget class="QWidget" name="page1"/>
+            <widget class="QWidget" name="page2"/>
+            <widget class="QWidget" name="page3"/>
+            <widget class="QWidget" name="page4"/>
+            <widget class="QWidget" name="page5"/>
+            <widget class="QWidget" name="page6"/>
+            <widget class="QWidget" name="page7"/>
+            <widget class="QWidget" name="page8"/>
             <widget class="QWidget" name="page9"/>
-            <widget class="QWidget" name="page10">
-             <widget class="QLabel" name="label_11">
-              <property name="geometry">
-               <rect>
-                <x>290</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item10</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page11">
-             <widget class="QLabel" name="label_12">
-              <property name="geometry">
-               <rect>
-                <x>290</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item11</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page12">
-             <widget class="QLabel" name="label_13">
-              <property name="geometry">
-               <rect>
-                <x>220</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item12</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page13">
-             <widget class="QLabel" name="label_14">
-              <property name="geometry">
-               <rect>
-                <x>300</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item13</string>
-              </property>
-             </widget>
-            </widget>
-            <widget class="QWidget" name="page14">
-             <widget class="QLabel" name="label_15">
-              <property name="geometry">
-               <rect>
-                <x>320</x>
-                <y>10</y>
-                <width>47</width>
-                <height>13</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>item14</string>
-              </property>
-             </widget>
-            </widget>
+            <widget class="QWidget" name="page10"/>
+            <widget class="QWidget" name="page11"/>
+            <widget class="QWidget" name="page12"/>
+            <widget class="QWidget" name="page13"/>
+            <widget class="QWidget" name="page14"/>
            </widget>
           </item>
          </layout>
